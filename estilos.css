@@ -611,6 +611,26 @@ main .sobre-nosotros{
   color: #9e9797;
 }
 
+@media screen and (max-width:900px){
+  header{
+      background-position: center;
+  }
+
+  
+  .contenedor-sobre-nosotros{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .sobre-nosotros .contenido-textos{
+      width: 90%;
+  }
+
+  .imagen-about-us{
+      width: 90%;
+  }
+}
 
 /* FORMULARIO */
 .formulario {
